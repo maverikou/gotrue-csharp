@@ -16,8 +16,8 @@
         <PackageIconUrl>https://avatars.githubusercontent.com/u/54469796?s=200&amp;v=4</PackageIconUrl>
         <PackageProjectUrl>https://github.com/supabase-community/gotrue-csharp</PackageProjectUrl>
         <PackageTags>supabase, gotrue</PackageTags>
-        <PackageVersion>6.0.3</PackageVersion>
-        <ReleaseVersion>6.0.3</ReleaseVersion>
+        <PackageVersion>6.0.4</PackageVersion>
+        <ReleaseVersion>6.0.4</ReleaseVersion>
         <RepositoryUrl>https://github.com/supabase-community/gotrue-csharp</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>icon.png</PackageIcon>
@@ -37,6 +37,8 @@
     </PropertyGroup>
     <PropertyGroup>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <FileVersion>6.0.4</FileVersion>
+        <AssemblyVersion>6.0.4</AssemblyVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Version)' == '' ">
         <VersionPrefix Condition=" '$(VersionPrefix)' == '' ">6.0.3</VersionPrefix>
